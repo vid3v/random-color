@@ -1,17 +1,61 @@
 {
   "name": "@vid3v/random-color",
   "version": "1.0.0",
-  "description": "Simple function to get random color base on HEX, RGB, RGBA, HSL, HSLA or color name",
-  "main": "index.js",
+  "description": "A tiny JavaScript Library for generating arbitrary colors",
   "license": "MIT",
   "author": "Vivien Tassing <vivientassing@aol.com>",
   "scripts": {
     "lint": "eslint . --ext .ts --fix src",
     "prettier": "prettier --write \"./**/*.{ts,json}\"",
     "test": "jest",
-    "commit": "cz"
+    "commit": "cz",
+    "build": "pika build",
+    "publish": "pika publish",
+    "version": "yarn build"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-ts-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-node"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ]
+    ]
+  },
+  "files": [
+    "dist-*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vid3v/random-color.git"
+  },
+  "keywords": [
+    "color",
+    "hex",
+    "rgb",
+    "rgba",
+    "hsl",
+    "hsla",
+    "randomcolor",
+    "random-color",
+    "generate-color"
+  ],
+  "bugs": {
+    "url": "https://github.com/vid3v/random-color/issues"
+  },
+  "homepage": "https://github.com/vid3v/random-color#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
+    "@pika/plugin-build-node": "^0.9.2",
+    "@pika/plugin-build-web": "^0.9.2",
+    "@pika/plugin-ts-standard-pkg": "^0.9.2",
     "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.16.0",

@@ -1,4 +1,4 @@
-import { colors } from '../constants'
+import { colors } from '../constants/index'
 import random from '../_lib/random/index'
 
 /**
