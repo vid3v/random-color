@@ -1,0 +1,11 @@
+{
+  "name": "@vid3v/random-color",
+  "version": "1.0.0",
+  "description": "Simple function to get random color base on HEX, RGB, RGBA, HSL, HSLA or color name",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Vivien Tassing <vivientassing@aol.com>",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}

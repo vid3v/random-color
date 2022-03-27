@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2020",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "sourceMap": true
+  },
+  "include": ["src/**/*.ts", "test/**/*.(spec|test).ts"],
+  "exclude": ["node_modules"]
+}
