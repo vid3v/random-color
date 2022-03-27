@@ -5,7 +5,21 @@
   "main": "index.js",
   "license": "MIT",
   "author": "Vivien Tassing <vivientassing@aol.com>",
+  "scripts": {
+    "lint": "eslint . --ext .ts --fix src",
+    "commit": "cz"
+  },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.12.0",
     "typescript": "^4.6.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
