@@ -6,6 +6,6 @@
     "moduleResolution": "Node",
     "sourceMap": true
   },
-  "include": ["src/**/*.ts", "test/**/*.(spec|test).ts"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
 }
