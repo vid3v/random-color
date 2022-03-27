@@ -7,6 +7,7 @@
   "author": "Vivien Tassing <vivientassing@aol.com>",
   "scripts": {
     "lint": "eslint . --ext .ts --fix src",
+    "prettier": "prettier --write \"./**/*.{ts,json}\"",
     "commit": "cz"
   },
   "devDependencies": {
@@ -15,6 +16,8 @@
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.1",
     "typescript": "^4.6.3"
   },
   "config": {
