@@ -13,11 +13,14 @@ $ npm install --save @vid3v/random-color
 ## Usage
 
 ```js
-var { hex } = require('@vid3v/random-color');
-var rgb = require('@vid3v/random-color/rgb');
+var { hex, rgb, rgba, hsl, hsla, name } = require('@vid3v/random-color');
 
-hex() // => #F37827
-rgb() // => rgb(90, 233, 87)
+hex()  // => #F37827
+rgb()  // => rgb(90, 233, 87)
+rgba() // => rgba(192, 81, 47, 0.9)
+hsl()  // => hsl(90, 63%, 95%)
+hsla() // => hsla(302, 49%, 10%, 0.32)
+name() // => red
 ```
 
 ## Contributing
