@@ -2,6 +2,7 @@
 
 > A tiny JavaScript Library for generating arbitrary colors.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/368d92bb7da547a7a5e69265495ba735)](https://app.codacy.com/gh/vid3v/random-color?utm_source=github.com&utm_medium=referral&utm_content=vid3v/random-color&utm_campaign=Badge_Grade_Settings)
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/vid3v/random-color/blob/main/LICENSE)
 
 ## Installation
